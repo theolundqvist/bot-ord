@@ -1,4 +1,4 @@
-//var ordlistaId = "1d0ZtJmb5m0MNcJ9uLofe8o6zX3ne-PvmZhflaCAWQy4"
+//var ordlistaId = "abcdefg123456"
 
 
 
@@ -100,7 +100,7 @@ function sendMessageToAll(){
 
 
 
-function sendPersonalMessage(id=1430571661){
+function sendPersonalMessage(id=12345678){
   sendMessage(id, "Hej namn, fungerar appen som den ska?\n\nUppge annars vad som är fel")
 }
 
