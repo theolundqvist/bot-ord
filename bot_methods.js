@@ -152,7 +152,7 @@ function parseUpdate(e = exampleData){
 
 
 function setWebHook(){
-  var url = "https://script.google.com/macros/s/AKfycbw8is9f-3wKyP8DPFCHw0Oe-FtzGmZ8bfeiJqv0lpghK9D5rh_7FAroXA/exec"
+  var url = "https://script.google.com/macros/s/abcdefg123456/exec"
   var res = UrlFetchApp.fetch(botUrl+"/setWebhook?url="+url+"&allowed_updates=message").getContentText();
   Logger.log(res)
 }
