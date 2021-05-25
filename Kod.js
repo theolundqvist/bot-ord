@@ -1,7 +1,7 @@
 
 
 var telegramUrl = "https://api.telegram.org/bot" + token;
-let adminId = "1383582720"
+let adminId = "13245678"
 
 
 /**
@@ -74,7 +74,7 @@ function doPost(e = undefined){
       if(id == adminId) sendMessage(adminId, SpreadsheetApp.openById(ordlistaId).getUrl())
       return quit(id)
     case "code": 
-      if(id == adminId) sendMessage(adminId, "https://script.google.com/u/0/home/projects/1dTnPx_oVztimeSaiz4IHkBHPx-PhKzwyBkfQjD2rqXK6C2VZEgGL3fV8/edit")
+      if(id == adminId) sendMessage(adminId, "https://script.google.com/u/0/home/projects/abcdefg123456/edit")
       return quit(id)
       
     case "gå med": 
