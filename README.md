@@ -1,4 +1,4 @@
-# HPword_bot
+# bot_ord
 Skickar ut ett ord från högskoleprovet varje dag.
 
 Ladda ner Telegram på mobil eller dator och testa sedan på:
